@@ -8,7 +8,7 @@ model=pickle.load(open('burn.pkl','rb'))
 Diet=pickle.load(open('Diet.pkl','rb'))
 Trainer=pickle.load(open('Trainer.pkl','rb'))
 
-# app.debug = True
+app.debug = True
 
 @app.route('/',methods=['GET'])
 def hello():
